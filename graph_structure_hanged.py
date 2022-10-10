@@ -11,16 +11,7 @@ def random_word():
 def hang_graph():
     print(HANGED[0])
     print((len(random_word())) * '_ ')
-    print(random_word())
-
-
-
-
-
-
-
-
-
+    
 
 
 menu="""
