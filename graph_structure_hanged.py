@@ -7,12 +7,29 @@ def random_word():
     words = random.randint(0, len(words_list)) 
     choosed_word = words_list[words]
     return choosed_word
-
+    
 def hang_graph():
     print(HANGED[0])
     print((len(random_word())) * '_ ')
     
+def correct_word():
+   attempts = 0
 
+   while attempts < 6:
+    letter = input('Print a letter: ')
+    attempts = attempts + 1
+    print(attempts)
+
+    if attempts == 6:
+     print('You lose, better luck in the next time!')
+     break
+
+  
+   
+
+    
+    
+  
 
 menu="""
 _________________________________________

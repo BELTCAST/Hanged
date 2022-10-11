@@ -10,6 +10,7 @@ def run():
         print('you select easy mode, good luck')
         graph.random_word()
         graph.hang_graph()
+        graph.correct_word()
 
 
  
